@@ -1,0 +1,8 @@
+hello.dll
+hello.so
+debug/
+uac_bypass_cmstp.dll
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb

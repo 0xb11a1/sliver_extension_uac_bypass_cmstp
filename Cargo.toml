@@ -1,0 +1,29 @@
+[package]
+name = "uac_bypass_cmstp"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "uac_bypass_cmstp"
+crate-type = ["cdylib"]
+
+[profile.release]
+strip = "debuginfo"
+opt-level = "z"
+lto = true
+
+[dependencies]
+enigo = "0.2.1"
+rand = "0.8.0"
+
+
+[dependencies.windows-sys]
+version = "0.52"
+features = [
+    "Win32_Foundation",
+    "Win32_Security",
+    "Win32_System_Threading",
+    "Win32_System_Diagnostics",
+    "Win32_UI_WindowsAndMessaging",
+    
+]

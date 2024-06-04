@@ -1,0 +1,17 @@
+{
+  "name": "uac_bypass_cmstp",
+  "command_name": "uac_bypass_cmstp",
+  "version": "0.0.1",
+  "extension_author": "0xcc00",
+  "original_author": "0xcc00",
+  "repo_url": "https://github.com/0xb11a1/sliver_extention_uac_bypass_cmstp",
+  "help": "Attempt to bypass UAC via execting a program using cmtp.exe",
+  "entrypoint": "entrypoint",
+  "files": [
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "path": "uac_bypass_cmstp.dll"
+    }
+  ]
+}
